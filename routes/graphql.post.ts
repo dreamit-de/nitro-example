@@ -84,10 +84,10 @@ const graphqlServer = new GraphQLServer(
   }
 )
 
-export default eventHandler(async event  => {
-  const body = await useBody(event)
-  const {req, res} = event
-  await graphqlServer.handleRequestAndSendResponse( {
+export default eventHandler(async (event)  => {
+  const body = await readBody(event)
+  const {req, res} = event.node
+  await graphqlServer.handleRequest( {
     headers: req.headers,
     url: req.url,
     body: body,
