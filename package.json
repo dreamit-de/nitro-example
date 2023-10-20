@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/sgohlke/nitro-example#readme",
   "devDependencies": {
-    "nitropack": "2.6.3"
+    "nitropack": "2.7.0"
   },
   "dependencies": {
     "@dreamit/graphql-server": "4.2.8"
