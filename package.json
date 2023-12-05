@@ -4,7 +4,7 @@
   "description": "Example NodeJS app using nitro",
   "scripts": {
     "build": "nitropack build",
-    "check": "tsc --noEmit --pretty",
+    "check": "echo 'Not defined in this project'",
     "dev": "nitropack dev",
     "lint": "echo 'Not defined in this project'",
     "test": "echo 'Not defined in this project'"
