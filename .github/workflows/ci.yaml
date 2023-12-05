@@ -1,4 +1,4 @@
-name: Install and test ts-base-dependencies
+name: Install nitro-example
 on: [push]
 
 jobs:

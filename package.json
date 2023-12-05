@@ -6,6 +6,7 @@
     "build": "nitropack build",
     "check": "tsc --noEmit --pretty",
     "dev": "nitropack dev",
+    "lint": "echo 'Not defined in this project'",
     "test": "echo 'Not defined in this project'"
   },
   "repository": {
